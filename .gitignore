@@ -1,0 +1,23 @@
+# Banco de dados local — contém dados pessoais, não versionar
+genvagas.db
+*.db
+*.db-journal
+*.db-wal
+
+# Banco de desenvolvimento (GENVAGAS_DB)
+genvagas.dev.db
+
+# Backups locais e automáticos (pré-migração) — também contêm dados pessoais
+*-backup.db
+backups/
+
+# Artefatos de teste/validação e do agente
+.playwright-mcp/
+mockup.html
+mockup-v2.html
+.qwen/
+
+# Sistema
+.DS_Store
+*.log
+node_modules/
